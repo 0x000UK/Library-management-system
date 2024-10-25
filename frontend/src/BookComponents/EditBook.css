@@ -1,0 +1,54 @@
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.content {
+    width: 700px;
+    height: 600px;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    /* max-width: 400px; */
+    overflow: scroll;
+  }
+
+.edit-input{
+  padding: 8px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  font-size: 18px;
+  border: 1px solid rgb(219, 219, 219);
+  background-color: rgb(255, 255, 255);
+}
+
+.edit-label {
+  color: black;
+  font-weight: 600;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.edit-cancel{
+  padding: 8px 10px;
+  border: 2px solid wheat;
+  background-color: rgb(144, 144, 144);
+  color: wheat;
+  font-weight: 600;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}

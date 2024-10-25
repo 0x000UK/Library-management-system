@@ -1,0 +1,25 @@
+/* Sidebar.css */
+.sidebar-comp{
+    width: 200px;
+    padding: 20px;
+    margin-top: 50px;
+    background-color: white;
+    height: 100vh;
+    /* position: fixed; */
+    overflow: scroll;
+  }
+  
+  .category-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .category-list li {
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  
+  .category-list li:hover {
+    color: #007bff;
+    text-decoration: underline;
+  }

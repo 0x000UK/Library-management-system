@@ -1,0 +1,46 @@
+.del-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.del-content {
+    width: 400px;
+    height: 150px;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+  }
+.del-content .book{
+    color: red;
+    font-size: 20;
+    font-weight: bold;
+}
+
+.del-content .buttons{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.del-btn{
+  padding: 8px 10px;
+  border: 2px solid wheat;
+  color: wheat;
+  font-weight: 600;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+.del-confirm-btn{
+    background-color: rgb(234, 68, 74);
+}
+.del-cancel-btn{
+    background-color: rgb(116, 106, 106);
+}
